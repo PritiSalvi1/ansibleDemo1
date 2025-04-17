@@ -1,0 +1,8 @@
+---
+- name: Practical 6 pull demo ansible playbook
+  hosts: localhost
+  tasks:
+      - name: print hello world
+        debug:
+            msg: "Hello World...Practical 6"
+     
